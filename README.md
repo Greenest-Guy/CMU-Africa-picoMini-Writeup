@@ -1,0 +1,1 @@
+# picoMini-CMU-Africa-CTF-Writeup
