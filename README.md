@@ -240,12 +240,12 @@ A friendly program wants to greet you… but its goodbye might say more than it 
 
 **Steps to Solve:**  
 1. Download ```vuln.c``` and open in a text editor.
-2. The input allows for chars up to length 200 but has a buffer of 10 leaving the program vulnerable to input injection.
-3. Connect to the challenge instance using via Netcat.
-4. Try a test input which reveals the program is running on Linux.
-6. Using an input such as ```0123456789echo "injection"``` echos injection to the terminal verifying the vulnerability.
-7. Reconnet to the server then input ```0123456789ls``` which reveals ```flag.txt```.
-8. Finally, after using the input ```0123456789cat flag.txt``` the flag will be displayed in the terminal.
+2. ```fgets(name, sizeof(name), stdin)``` allows for up to 199 bytes of input but ```fun()``` copies the input using ```strcpy() (no bounds checking)``` into buffer which is 10 bytes, so an input >10 bytes will overflow buffer.
+3. Connect to the challenge instance ```nc <host> <port>```.
+4. Try a test input which reveals that ```system()``` is executed with the command ```uname```, which outputs Linux, the host's OS.
+5. Using an input such as ```0123456789echo "injection"``` echos injection to the terminal verifying the vulnerability.
+6. Reconnect to the server then input ```0123456789ls``` which reveals ```flag.txt```.
+7. Finally, after using the input ```0123456789cat flag.txt``` the flag will be displayed in the terminal.
 
 **Code / Commands / Images**
 
