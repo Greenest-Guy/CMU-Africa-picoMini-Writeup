@@ -225,3 +225,61 @@ xxd file > filedump
 xxd -r filedump > file
 mv file file.jpg
 ```
+
+## Input Injection 1
+**Category:** Binary Exploitation
+
+**Files/Links Provided:** ```vuln.c```, ```vuln```
+
+
+**Description:**  
+
+```
+A friendly program wants to greet you… but its goodbye might say more than it should. Can you convince it to reveal the flag?
+```
+
+**Steps to Solve:**  
+1. Download ```vuln.c``` and open in a text editor.
+2. The input allows for chars up to length 200 but has a buffer of 10 leaving the program vulnerable to input injection.
+3. Connect to the challenge instance using via Netcat.
+4. Try a test input which reveals the program is running on Linux.
+6. Using an input such as ```0123456789echo "injection"``` echos injection to the terminal verifying the vulnerability.
+7. Reconnet to the server then input ```0123456789ls``` which reveals ```flag.txt```.
+8. Finally, after using the input ```0123456789cat flag.txt``` the flag will be displayed in the terminal.
+
+**Code / Commands / Images**
+
+```c
+// vuln.c source code
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h> 
+
+void fun(char *name, char *cmd);
+
+int main() {
+    char name[200];
+    printf("What is your name?\n");
+    fflush(stdout);
+
+
+    fgets(name, sizeof(name), stdin);
+    name[strcspn(name, "\n")] = 0;
+
+    fun(name, "uname");
+    return 0;
+}
+
+void fun(char *name, char *cmd) {
+    char c[10];
+    char buffer[10];
+
+    strcpy(c, cmd);
+    strcpy(buffer, name);
+
+    printf("Goodbye, %s!\n", buffer);
+    fflush(stdout);
+    system(c);
+}
+
+```
