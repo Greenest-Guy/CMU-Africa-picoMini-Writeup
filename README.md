@@ -21,8 +21,8 @@
 
   - [Riddle Registry](#riddle-registry)
   - [Flag in Flame](#flag-in-flame)
-  - [Hidden in Plainsight](#hidden-in-plainsight)
-  - [Corrupted File](#corrupted-file)
+  - [Hidden in plainsight](#hidden-in-plainsight)
+  - [Corrupted file](#corrupted-file)
 </details>
 
 <details open>
