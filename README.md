@@ -4,17 +4,40 @@
 </p>
 
 ## Table of Contents
+<details open>
+  <summary><b>🔐 Cryptography</b></summary>
 
-- [CMU-Africa-picoMini-Writeup](#cmu-africa-picomini-writeup)
-- [Crack the Power](#crack-the-power)
-- [Log Hunt](#log-hunt)
-- [Riddle Registry](#riddle-registry)
-- [Flag in Flame](#flag-in-flame)
-- [Crack the Gate 1](#crack-the-gate-1)
-- [Crack the Gate 2](#crack-the-gate-2)
-- [Hidden in plainsight](#hidden-in-plainsight)
-- [Corrupted file](#corrupted-file)
-- [Input Injection 1](#input-injection-1)
+  - [Crack the Power](#crack-the-power)
+</details>
+
+<details open>
+  <summary><b>🧠 General Skills</b></summary>
+
+  - [Log Hunt](#log-hunt)
+</details>
+
+<details open>
+  <summary><b>🔍 Forensics</b></summary>
+
+  - [Riddle Registry](#riddle-registry)
+  - [Flag in Flame](#flag-in-flame)
+  - [Hidden in Plainsight](#hidden-in-plainsight)
+  - [Corrupted File](#corrupted-file)
+</details>
+
+<details open>
+  <summary><b>🌐 Web Exploitation</b></summary>
+
+  - [Crack the Gate 1](#crack-the-gate-1)
+  - [Crack the Gate 2](#crack-the-gate-2)
+</details>
+
+<details open>
+  <summary><b>⚙️ Binary Exploitation</b></summary>
+
+  - [Input Injection 1](#input-injection-1)
+</details>
+
 
 
 ## Crack the Power
