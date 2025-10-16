@@ -1,5 +1,4 @@
-# picoMini-CMU-Africa-CTF-Writeup
-
+# CMU-Africa-picoMini-Writeup
 ## Crack the Power
 **Category:** Cryptography
 
@@ -15,7 +14,7 @@ We received an encrypted message. The modulus is built from primes large enough 
 **Steps to Solve:**  
 1. Download ```message.txt```
 2. Extract n, c, and e for analysis.
-3. Check if the ciphertext corresponds to an exact integer e-th power, if the plaintext $$m$$ satisfies $$m^e < n$$ then $$m^e = c$$. Now you can recover $$m$$ by taking the e-th root of the ciphertext:
+3. Check if the ciphertext corresponds to an exact integer e-th power. If the plaintext $$m$$ satisfies $$m^e < n$$, then $$m^e = c$$. Now you can recover $$m$$ by taking the e-th root of the ciphertext:
    
 $$
 m = \sqrt[e]{c}
@@ -59,8 +58,8 @@ Download the logs and figure out the full flag from the fragments.
 **Steps to Solve:**  
 1. Download ```server.log```.
 2. Open a terminal within the directory of the log files location.
-3. Use grep to find the flagparts.
-4. reconstruct the flag using the flag parts.
+3. Use grep to find the flag parts.
+4. Reconstruct the flag using the flag parts.
 
 
 **Code / Commands / Images**
@@ -143,10 +142,10 @@ Additional details will be available after launching your challenge instance
 1. Open the website and inspect the index HTML file.
 2. Decode a comment left by the developer within the index using ROT13 (Caesar Cipher)
 3. Recover the temporary bypass header from the comment decoded from ROT13.
-4. Open the website within Burp Suite's PortSwigger turning on Proxy Intercepts after connecting.
+4. Open the website within Burp Suite's PortSwigger, turning on Proxy Intercepts after connecting.
 5. Input the email provided in the description and any password.
 6. Add the bypass header to the login HTTP request.
-7. Forward the login request to the website uncovering the flag.
+7. Forward the login request to the website, uncovering the flag.
 
 
 **Code / Commands / Images**
@@ -185,8 +184,8 @@ The login system has been upgraded with a basic rate-limiting mechanism that loc
 ```
 
 **Steps to Solve:**  
-1. Open the website within Burp Suite's PortSwigger turning on Proxy Intercepts after connecting.
-2. Input the knwon email, and a password from ```passwords.txt```.
+1. Open the website within Burp Suite's PortSwigger, turning on Proxy Intercepts after connecting.
+2. Input the known email, and a password from ```passwords.txt```.
 3. Append ```X-Forwarded-For: <ipv4>``` to the top of your HTTP request with a random ip address.
 4. Forward the edited HTTP request.
 5. Repeat steps 2-4 for each password in ```passwords.txt``` with a different ip for each login attempt.
@@ -233,8 +232,8 @@ This file seems broken... or is it? Maybe a couple of bytes could make all the d
 1. Download ```file```
 2. Use xxd to inspect the hexdump of the file.
 3. Compare the first 16 bytes of the corrupted file to a working jpg.
-4. Save the xxd into a hexdump file opening it in a text editor.
-5. Repair the file by changing the first nibble (4-bits), to ```ffd8``` which is part of the file signature (header) of a jpg file.
+4. Save the xxd into a hexdump file, opening it in a text editor.
+5. Repair the file by changing the first nibble (4 bits) to ```ffd8``` which is part of the file signature (header) of a jpg file.
 6. Save the file and change it to a ```.jpg```.
 
 **Code / Commands / Images**
@@ -262,7 +261,7 @@ A friendly program wants to greet you… but its goodbye might say more than it 
 2. ```fgets(name, sizeof(name), stdin)``` allows for up to 199 bytes of input but ```fun()``` copies the input using ```strcpy() (no bounds checking)``` into buffer which is 10 bytes, so an input >10 bytes will overflow buffer.
 3. Connect to the challenge instance ```nc <host> <port>```.
 4. Try a test input which reveals that ```system()``` is executed with the command ```uname```, which outputs Linux, the host's OS.
-5. Using an input such as ```0123456789echo "injection"``` echos injection to the terminal verifying the vulnerability.
+5. Using an input such as ```0123456789echo "injection"``` echos injection to the terminal, verifying the vulnerability.
 6. Reconnect to the server then input ```0123456789ls``` which reveals ```flag.txt```.
 7. Finally, after using the input ```0123456789cat flag.txt``` the flag will be displayed in the terminal.
 
