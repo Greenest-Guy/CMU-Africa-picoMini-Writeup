@@ -1,4 +1,9 @@
 # CMU-Africa-picoMini-Writeup
+<p align="center">
+  <img src="https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/images/picoCTF_logo.png?raw=true" alt="picoCTF logo" width="400" />
+</p>
+
+
 ## Crack the Power
 **Category:** Cryptography
 
