@@ -38,8 +38,6 @@
   - [Input Injection 1](#input-injection-1)
 </details>
 
-
-
 ## Crack the Power
 **Category:** Cryptography
 
