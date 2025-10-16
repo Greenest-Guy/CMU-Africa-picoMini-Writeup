@@ -3,7 +3,7 @@
   <img src="https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/images/picoCTF_logo.png?raw=true" alt="picoCTF logo" width="400" />
 </p>
 
-This repository contains detailed write-ups of my solutions for the CMU Africa picoMini challenges. Each section explains the challenge setup, the steps to solve it, and the relevant tools, commands, or scripts used.
+This repository contains detailed write-ups of my solutions for the [CMU Africa picoMini](https://play.picoctf.org/practice?originalEvent=77&page=1) challenges. Each section explains the challenge setup, the steps to solve it, and the relevant tools, commands, or scripts used.
 
 ## Table of Contents
 <details open>
