@@ -236,6 +236,8 @@ The login system has been upgraded with a basic rate-limiting mechanism that loc
 4. Forward the edited HTTP request.
 5. Repeat steps 2-4 for each password in ```passwords.txt``` with a different ip for each login attempt.
 
+![image](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/images/burpsuite.png)
+
 [🔼 Back to Top](#table-of-contents)
 
 ## Hidden in plainsight
