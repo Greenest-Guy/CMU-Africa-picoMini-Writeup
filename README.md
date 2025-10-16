@@ -79,6 +79,7 @@ if exact:
 
     print(plaintext)
 ```
+[🔼 Back to Top](#table-of-contents)
 
 ## Log Hunt
 **Category:** General Skills
@@ -106,6 +107,7 @@ Download the logs and figure out the full flag from the fragments.
 grep "picoCTF" server.log -i
 grep "INFO FLAGPART:" server.log -A 1 
 ```
+[🔼 Back to Top](#table-of-contents)
 
 ## Riddle Registry
 **Category:** Forensics
@@ -134,6 +136,7 @@ Find the PDF file here Hidden Confidential Document and uncover the flag within 
 exiftool confidential.pdf > metadata.txt
 base64 -d "author.txt"
 ```
+[🔼 Back to Top](#table-of-contents)
 
 ## Flag in Flame
 **Category:** Forensics
@@ -162,6 +165,7 @@ Download the encoded data here: Logs Data. Be prepared—the file is large, and 
 base64 -d "logs.txt" > image.txt
 mv image.txt image.png
 ```
+[🔼 Back to Top](#table-of-contents)
 
 ## Crack the Gate 1
 **Category:** Web Exploitation
@@ -209,6 +213,7 @@ def rot13(text):
     return result
 
 ```
+[🔼 Back to Top](#table-of-contents)
 
 ## Crack the Gate 2
 **Category:** Web Exploitation
@@ -228,6 +233,7 @@ The login system has been upgraded with a basic rate-limiting mechanism that loc
 3. Append ```X-Forwarded-For: <ipv4>``` to the top of your HTTP request with a random ip address.
 4. Forward the edited HTTP request.
 5. Repeat steps 2-4 for each password in ```passwords.txt``` with a different ip for each login attempt.
+[🔼 Back to Top](#table-of-contents)
 
 ## Hidden in plainsight
 **Category:** Forensics
@@ -254,6 +260,7 @@ You’re given a seemingly ordinary JPG image. Something is tucked away out of s
 base64 -d file.txt
 steghide extract -sf img.jpg -p pAzzword
 ```
+[🔼 Back to Top](#table-of-contents)
 
 ## Corrupted file
 **Category:** Forensics
@@ -282,6 +289,7 @@ xxd file > filedump
 xxd -r filedump > file
 mv file file.jpg
 ```
+[🔼 Back to Top](#table-of-contents)
 
 ## Input Injection 1
 **Category:** Binary Exploitation
@@ -340,3 +348,4 @@ void fun(char *name, char *cmd) {
 }
 
 ```
+[🔼 Back to Top](#table-of-contents)
