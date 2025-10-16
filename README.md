@@ -49,7 +49,8 @@ This repository contains detailed write-ups of my solutions for the CMU Africa p
 **Description:**  
 
 ```
-We received an encrypted message. The modulus is built from primes large enough that factoring them isn’t an option, at least not today. See if you can make sense of the numbers and reveal the flag. Download the message.
+We received an encrypted message. The modulus is built from primes large enough that factoring them isn’t an option, at least not today.
+See if you can make sense of the numbers and reveal the flag. Download the message.
 ```
 
 **Steps to Solve:**  
@@ -150,7 +151,8 @@ base64 -d "author.txt"
 
 ```
 The SOC team discovered a suspiciously large log file after a recent breach. When they opened it, they found an enormous block of encoded text instead of typical logs.
-Could there be something hidden within? Your mission is to inspect the resulting file and reveal the real purpose of it. The team is relying on your skills to uncover any concealed information within this unusual log.
+Could there be something hidden within? Your mission is to inspect the resulting file and reveal the real purpose of it.
+The team is relying on your skills to uncover any concealed information within this unusual log.
 Download the encoded data here: Logs Data. Be prepared—the file is large, and examining it thoroughly is crucial .
 ```
 
@@ -178,7 +180,10 @@ mv image.txt image.png
 **Description:**  
 
 ```
-We’re in the middle of an investigation. One of our persons of interest, ctf player, is believed to be hiding sensitive data inside a restricted web portal. We’ve uncovered the email address he uses to log in: ctf-player@picoctf.org. Unfortunately, we don’t know the password, and the usual guessing techniques haven’t worked. But something feels off... it’s almost like the developer left a secret way in. Can you figure it out?
+We’re in the middle of an investigation. One of our persons of interest, ctf player, is believed to be hiding sensitive data inside a restricted web portal.
+We’ve uncovered the email address he uses to log in: ctf-player@picoctf.org.
+Unfortunately, we don’t know the password, and the usual guessing techniques haven’t worked.
+But something feels off... it’s almost like the developer left a secret way in. Can you figure it out?
 
 Additional details will be available after launching your challenge instance
 ```
@@ -226,7 +231,9 @@ def rot13(text):
 **Description:**  
 
 ```
-The login system has been upgraded with a basic rate-limiting mechanism that locks out repeated failed attempts from the same source. We’ve received a tip that the system might still trust user-controlled headers. Your objective is to bypass the rate-limiting restriction and log in using the known email address: ctf-player@picoctf.org and uncover the hidden secret.
+The login system has been upgraded with a basic rate-limiting mechanism that locks out repeated failed attempts from the same source.
+We’ve received a tip that the system might still trust user-controlled headers.
+Your objective is to bypass the rate-limiting restriction and log in using the known email address: ctf-player@picoctf.org and uncover the hidden secret.
 ```
 
 **Steps to Solve:**  
@@ -249,7 +256,8 @@ The login system has been upgraded with a basic rate-limiting mechanism that loc
 **Description:**  
 
 ```
-You’re given a seemingly ordinary JPG image. Something is tucked away out of sight inside the file. Your task is to discover the hidden payload and extract the flag. Download the jpg image here.
+You’re given a seemingly ordinary JPG image. Something is tucked away out of sight inside the file.
+Your task is to discover the hidden payload and extract the flag. Download the jpg image here.
 ```
 
 **Steps to Solve:**  
@@ -276,7 +284,8 @@ steghide extract -sf img.jpg -p pAzzword
 **Description:**  
 
 ```
-This file seems broken... or is it? Maybe a couple of bytes could make all the difference. Can you figure out how to bring it back to life? Download the file here.
+This file seems broken... or is it? Maybe a couple of bytes could make all the difference.
+Can you figure out how to bring it back to life? Download the file here.
 ```
 
 **Steps to Solve:**  
@@ -305,7 +314,8 @@ mv file file.jpg
 **Description:**  
 
 ```
-A friendly program wants to greet you… but its goodbye might say more than it should. Can you convince it to reveal the flag?
+A friendly program wants to greet you… but its goodbye might say more than it should.
+Can you convince it to reveal the flag?
 ```
 
 **Steps to Solve:**  
