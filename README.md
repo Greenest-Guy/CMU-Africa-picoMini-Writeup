@@ -3,6 +3,19 @@
   <img src="https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/images/picoCTF_logo.png?raw=true" alt="picoCTF logo" width="400" />
 </p>
 
+## Table of Contents
+
+- [CMU-Africa-picoMini-Writeup](#cmu-africa-picomini-writeup)
+- [Crack the Power](#crack-the-power)
+- [Log Hunt](#log-hunt)
+- [Riddle Registry](#riddle-registry)
+- [Flag in Flame](#flag-in-flame)
+- [Crack the Gate 1](#crack-the-gate-1)
+- [Crack the Gate 2](#crack-the-gate-2)
+- [Hidden in plainsight](#hidden-in-plainsight)
+- [Corrupted file](#corrupted-file)
+- [Input Injection 1](#input-injection-1)
+
 
 ## Crack the Power
 **Category:** Cryptography
