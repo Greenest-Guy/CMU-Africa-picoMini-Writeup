@@ -21,6 +21,7 @@ it back to life? Download the file here.
 6. Save the file and change it to a ```.jpg```.
 
 **Code / Commands / Images**
+
 ![image](https://github.com/Greenest-Guy/picoMini-CMU-Africa-CTF-Writeup/blob/main/images/compare.png)
 ```bash
 xxd file > filedump
