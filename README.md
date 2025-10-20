@@ -15,29 +15,29 @@ This repository contains detailed write-ups of my solutions for the [CMU Africa 
 <details open>
   <summary><b>🔐 Cryptography</b></summary>
 
-  - [Crack the Power](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/crack_the_power.md)
+  - [Crack the Power](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/cryptography/crack_the_power.md)
 </details>
 
 <details open>
   <summary><b>🔍 Forensics</b></summary>
 
-  - [Riddle Registry](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/riddle_registry.md)
-  - [Flag in Flame](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/flag_in_flame.md)
-  - [Hidden in plainsight](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/hidden_in_plainsight.md)
-  - [Corrupted file](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/corrupted_file.md)
+  - [Riddle Registry](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/forensics/riddle_registry.md)
+  - [Flag in Flame](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/forensics/flag_in_flame.md)
+  - [Hidden in plainsight](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/forensics/hidden_in_plainsight.md)
+  - [Corrupted file](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/forensics/corrupted_file.md)
 </details>
 
 <details open>
   <summary><b>🧠 General Skills</b></summary>
 
-  - [Log Hunt](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/log_hunt.md)
+  - [Log Hunt](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/general_skills/log_hunt.md)
 </details>
 
 <details open>
   <summary><b>🌐 Web Exploitation</b></summary>
 
-  - [Crack the Gate 1](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/crack_the_gate_1.md)
-  - [Crack the Gate 2](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/crack_the_gate_2.md)
+  - [Crack the Gate 1](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/web_exploitation/crack_the_gate_1.md)
+  - [Crack the Gate 2](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/web_exploitation/crack_the_gate_2.md)
 </details>
 
 
