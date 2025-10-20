@@ -9,7 +9,7 @@ This repository contains detailed write-ups of my solutions for the [CMU Africa 
 <details open>
   <summary><b>⚙️ Binary Exploitation</b></summary>
 
-  - [Input Injection 1](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/input_injection_1.md)
+  - [Input Injection 1](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/binary_exploitation/input_injection_1.md)
 </details>
 
 <details open>
