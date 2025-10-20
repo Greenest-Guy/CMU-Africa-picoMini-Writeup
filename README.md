@@ -7,38 +7,40 @@ This repository contains detailed write-ups of my solutions for the [CMU Africa 
 
 ## Table of Contents
 <details open>
-  <summary><b>🔐 Cryptography</b></summary>
+  <summary><b>⚙️ Binary Exploitation</b></summary>
 
-  - [Crack the Power](#crack-the-power)
+  - [Input Injection 1](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/input_injection_1.md)
 </details>
 
 <details open>
-  <summary><b>🧠 General Skills</b></summary>
+  <summary><b>🔐 Cryptography</b></summary>
 
-  - [Log Hunt](#log-hunt)
+  - [Crack the Power](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/crack_the_power.md)
 </details>
 
 <details open>
   <summary><b>🔍 Forensics</b></summary>
 
-  - [Riddle Registry](#riddle-registry)
-  - [Flag in Flame](#flag-in-flame)
-  - [Hidden in plainsight](#hidden-in-plainsight)
-  - [Corrupted file](#corrupted-file)
+  - [Riddle Registry](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/riddle_registry.md)
+  - [Flag in Flame](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/flag_in_flame.md)
+  - [Hidden in plainsight](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/hidden_in_plainsight.md)
+  - [Corrupted file](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/corrupted_file.md)
+</details>
+
+<details open>
+  <summary><b>🧠 General Skills</b></summary>
+
+  - [Log Hunt](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/log_hunt.md)
 </details>
 
 <details open>
   <summary><b>🌐 Web Exploitation</b></summary>
 
-  - [Crack the Gate 1](#crack-the-gate-1)
-  - [Crack the Gate 2](#crack-the-gate-2)
+  - [Crack the Gate 1](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/crack_the_gate_1.md)
+  - [Crack the Gate 2](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/challenges/crack_the_gate_2.md)
 </details>
 
-<details open>
-  <summary><b>⚙️ Binary Exploitation</b></summary>
 
-  - [Input Injection 1](#input-injection-1)
-</details>
 
 ## Crack the Power
 **Category:** Cryptography
