@@ -26,4 +26,4 @@ the jpg image here.
 base64 -d file.txt
 steghide extract -sf img.jpg -p pAzzword
 ```
-[🔼 Back to Top](#table-of-contents)
+[🏠 Back to Main Page](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup)

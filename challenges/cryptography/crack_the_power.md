@@ -42,4 +42,4 @@ if exact:
 
     print(plaintext)
 ```
-[🔼 Back to Top](#table-of-contents)
+[🏠 Back to Main Page](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup)

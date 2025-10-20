@@ -28,4 +28,4 @@ uncover the flag within the metadata.
 exiftool confidential.pdf > metadata.txt
 base64 -d "author.txt"
 ```
-[🔼 Back to Top](#table-of-contents)
+[🏠 Back to Main Page](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup)

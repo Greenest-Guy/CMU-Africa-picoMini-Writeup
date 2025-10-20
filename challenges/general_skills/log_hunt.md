@@ -25,4 +25,4 @@ and figure out the full flag from the fragments.
 grep "picoCTF" server.log -i
 grep "INFO FLAGPART:" server.log -A 1 
 ```
-[🔼 Back to Top](#table-of-contents)
+[🏠 Back to Main Page](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup)

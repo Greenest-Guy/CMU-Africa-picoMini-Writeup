@@ -27,4 +27,4 @@ xxd file > filedump
 xxd -r filedump > file
 mv file file.jpg
 ```
-[🔼 Back to Top](#table-of-contents)
+[🏠 Back to Main Page](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup)

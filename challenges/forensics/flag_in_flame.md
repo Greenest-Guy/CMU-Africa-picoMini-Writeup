@@ -30,4 +30,4 @@ is large, and examining it thoroughly is crucial.
 base64 -d "logs.txt" > image.txt
 mv image.txt image.png
 ```
-[🔼 Back to Top](#table-of-contents)
+[🏠 Back to Main Page](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup)
