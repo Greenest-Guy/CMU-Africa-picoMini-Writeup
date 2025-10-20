@@ -1,4 +1,4 @@
-## Log Hunt
+## 🧠 Log Hunt
 **Category:** General Skills
 
 **Files/Links Provided:** ```server.log```

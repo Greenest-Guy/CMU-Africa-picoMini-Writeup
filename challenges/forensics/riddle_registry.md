@@ -1,4 +1,4 @@
-## Riddle Registry
+## 🔍 Riddle Registry
 **Category:** Forensics
 
 **Files/Links Provided:** ```Hidden Confidential Document```

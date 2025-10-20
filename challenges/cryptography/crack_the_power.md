@@ -1,4 +1,4 @@
-## Crack the Power
+## 🔐 Crack the Power
 **Category:** Cryptography
 
 **Files/Links Provided:** ```message.txt```

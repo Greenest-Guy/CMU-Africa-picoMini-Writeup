@@ -1,4 +1,4 @@
-## Corrupted file
+## 🔍 Corrupted file
 **Category:** Forensics
 
 **Files/Links Provided:** ```file```

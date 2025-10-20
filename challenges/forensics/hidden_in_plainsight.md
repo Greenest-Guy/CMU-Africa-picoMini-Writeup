@@ -1,4 +1,4 @@
-## Hidden in plainsight
+## 🔍 Hidden in plainsight
 **Category:** Forensics
 
 **Files/Links Provided:** ```img.jpg```

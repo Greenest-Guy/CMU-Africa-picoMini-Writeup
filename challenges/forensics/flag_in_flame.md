@@ -1,4 +1,4 @@
-## Flag in Flame
+## 🔍 Flag in Flame
 **Category:** Forensics
 
 **Files/Links Provided:** ```logs.txt```
