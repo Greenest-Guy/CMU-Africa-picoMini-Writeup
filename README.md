@@ -3,10 +3,9 @@
   <img src="https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup/blob/main/images/picoCTF_logo.png?raw=true" alt="picoCTF logo" width="400" />
 </p>
 
-Detailed write-ups of my solutions for the [CMU Africa picoMini](https://play.picoctf.org/practice?originalEvent=77&page=1) competition. Each challenge contains the challenge setup, the steps to solve it, along with the tools, commands, or scripts used.
+Detailed write-ups of my solutions for the [CMU Africa picoMini](https://play.picoctf.org/practice?originalEvent=77&page=1) competition. Each challenge contains the challenge setup, the steps to solve it, along with the tools, commands, or scripts used!
 
 ## Table of Contents
-_Click on any challenge name to open its write-up!_
 <details open>
   <summary><b>⚙️ Binary Exploitation</b></summary>
 
