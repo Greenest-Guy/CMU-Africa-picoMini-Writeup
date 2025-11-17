@@ -18,7 +18,8 @@ it back to life? Download the file here.
 3. Compare the first 16 bytes of the corrupted file to a working jpg.
 4. Save the xxd into a hexdump file, opening it in a text editor.
 5. Repair the file by changing the first nibble (4 bits) to ```ffd8``` which is part of the file signature (header) of a jpg file.
-6. Save the file and change it to a ```.jpg```.
+6. Save the changes to the file.
+7. Change the file extension to ```.jpg```.
 
 **Code / Commands / Images**
 
