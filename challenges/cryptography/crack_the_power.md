@@ -53,4 +53,6 @@ if exact:
 
     print(plaintext)
 ```
+> Python code to calculate the e-th root and decode the plaintext bytes to utf-8.
+
 [🏠 Back to Main Page](https://github.com/Greenest-Guy/CMU-Africa-picoMini-Writeup)
